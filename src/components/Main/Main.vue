@@ -1,24 +1,19 @@
 <template>
   <div id="fullPage" v-fullpage="{options: options, methods:{animationEnd: onAnimationEnd, initAlloyTouch: initAlloyTouch}, min: min, max: max}">
-    <div>
-      <div>
-        <div class="animated" data-show="bounceInLeft" data-hide="bounceOutLeft">AlloyTouch Introduction</div>
-        <div class="animated" data-delay="500" data-show="bounceInUp" data-hide="zoomOut"><img src=""></div>
-        <div class="animated" data-delay="1200" data-show="bounceIn" data-hide="bounceOut">By AlloyTeam</div>
-      </div>
-    </div>
-    <div>
-      <div>
-        <div class="animated"  data-delay="100" data-show="flipInY" data-hide="flipOutY" >Powerful Features</div>
-        <div class="animated"  data-delay="400" data-show="zoomIn" data-hide="zoomOut"><img src=""></div>
-      </div>
-    </div>
+    <page1 />
+    <page2 />
   </div>
 </template>
 
 <script>
+  import Page1 from '../Page1/Page1.vue'
+  import Page2 from '../Page2/Page2.vue'
   export default {
-    name: 'Home',
+    name: 'Main',
+    components: {
+      Page1,
+      Page2
+    },
     data () {
       return {
         // 初始化设置

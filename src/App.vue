@@ -15,5 +15,10 @@
 </script>
 
 <style lang="stylus" scoped>
-
+  #app {
+    background url("./assets/images/full-bg-btm.png") no-repeat
+    background-position center center
+    background-size cover
+    background-attachment fixed
+  }
 </style>
