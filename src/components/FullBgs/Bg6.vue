@@ -1,5 +1,5 @@
 <template>
-  <div class="animated bg6" data-delay="600" data-show="rollIn" data-hide="zoomOut">
+  <div class="animated bg6" data-delay="800" data-show="rollIn" data-hide="zoomOut">
     <img :src="bgBird" class="bg-bird">
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
   import bgBird from '../../assets/images/full-bg-bird.png'
   export default {
-    name: 'Bg5',
+    name: 'Bg6',
     data () {
       return {
         bgBird
@@ -22,11 +22,12 @@
     height 100px
     position absolute
     top 10%
-    right 10px
+    right 0
     z-index 1
     .bg-bird {
       width 70%
       height 70%
+      margin-left 10px
     }
   }
 </style>

@@ -6,8 +6,8 @@
 </template>
 
 <script>
-  import Page1 from '../Pages/Page1.vue'
-  import Page2 from '../Pages/Page2.vue'
+  import Page1 from '../Pages/Page1/Page1.vue'
+  import Page2 from '../Pages/Page2/Page2.vue'
   export default {
     name: 'Main',
     components: {

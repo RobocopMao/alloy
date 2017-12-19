@@ -1,5 +1,5 @@
 <template>
-  <div class="animated bg5" data-delay="500" data-show="bounceIn" data-hide="zoomOut">
+  <div class="animated bg5" data-delay="600" data-show="bounceIn" data-hide="zoomOut">
     <img :src="bgText" class="bg-text">
   </div>
 </template>
