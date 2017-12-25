@@ -1,5 +1,5 @@
 <template>
-  <div class="page1">
+  <div class="page page1">
     <bg1 />
     <bg2 />
     <bg3 />
@@ -39,8 +39,5 @@
 </script>
 
 <style lang="stylus" scoped>
-  .page1 {
-    position relative
-    height 100%
-  }
+
 </style>
